@@ -84,11 +84,11 @@ bundle/
 
 ## Skillの導入
 
-このリポジトリをClaudeにSkillとして追加する(リポジトリ直下の`SKILL.md`)。
+skills/apt-sneakernet-skillフォルダを圧縮してweb版claudeからskillとしてアップロードする。
 会話内で使えるようになったら、まとめてほしいものをチャットで伝えるだけでよい。
 
 実装上ハマりやすい点(CA証明書の引き継ぎ等)は
-[`references/implementation-notes.md`](references/implementation-notes.md) を参照。
+[`references/implementation-notes.md`](skills/apt-sneakernet-skill/references/implementation-notes.md) を参照。
 
 ## License
 

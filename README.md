@@ -91,12 +91,12 @@ On the offline machine, just extract the archive and run `./install-offline.sh`.
 
 ## Installing the Skill
 
-Add this repository as a Skill in Claude (`SKILL.md` at the repo root).
-Once it's available in a conversation, just describe what you need bundled —
-Claude takes care of the rest.
+Zip up the `skills/apt-sneakernet-skill` folder and upload it as a Skill in
+web Claude. Once it's available in a conversation, just describe what you
+need bundled — Claude takes care of the rest.
 
 Implementation gotchas (CA certificate propagation, etc.) are documented in
-[`references/implementation-notes.md`](references/implementation-notes.md).
+[`references/implementation-notes.md`](skills/apt-sneakernet-skill/references/implementation-notes.md).
 
 ## License
 
